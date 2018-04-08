@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="utsav.in.ac.bmsce.bmsceutsav">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".SponsersActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".DevelopersActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".DanceListActivity" />
+        <activity android:name=".EasternMusicListActivity" />
+        <activity android:name=".EDCListActivity" />
+        <activity android:name=".FashionListActivity" />
+        <activity android:name=".FineArtsListActivity" />
+        <activity android:name=".GameListActivity" />
+        <activity android:name=".KannadaSanghaListActivity" />
+        <activity android:name=".LiteratureListActivity" />
+        <activity android:name=".MathListActivity" />
+        <activity android:name=".PhotographyListActivity" />
+        <activity android:name=".QuizListActivity" />
+        <activity android:name=".TechListActivity" />
+        <activity android:name=".TheatreListActivity" />
+        <activity android:name=".WesternMusicListActivity" />
+        <activity android:name=".EventsListActivity">
+
+        </activity>
+        <activity android:name=".DeleteThis"></activity>
+    </application>
+
+</manifest>

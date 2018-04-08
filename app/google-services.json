@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "753219255980",
+    "firebase_url": "https://utsav2018-cb657.firebaseio.com",
+    "project_id": "utsav2018-cb657",
+    "storage_bucket": "utsav2018-cb657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753219255980:android:477c7021446b3489",
+        "android_client_info": {
+          "package_name": "in.ac.bmsce.utsav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753219255980-41knoeqofokuul4jrij92t1qi4ujos31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapUw67vNZeI3i0igcj6H7ZG4__a4HCQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753219255980:android:5779dca9410b9be9",
+        "android_client_info": {
+          "package_name": "in.ac.bmsce.utsav2k18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753219255980-7ln7jpjgdq925hibnd70q3lksf0an1q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.bmsce.utsav2k18",
+            "certificate_hash": "d5d90ee66f47c4ed8b0f8d449774d80b747d4140"
+          }
+        },
+        {
+          "client_id": "753219255980-41knoeqofokuul4jrij92t1qi4ujos31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapUw67vNZeI3i0igcj6H7ZG4__a4HCQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753219255980-41knoeqofokuul4jrij92t1qi4ujos31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753219255980:android:5a54dba134c7c48d",
+        "android_client_info": {
+          "package_name": "utsav.in.ac.bmsce.bmsceutsav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753219255980-41knoeqofokuul4jrij92t1qi4ujos31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapUw67vNZeI3i0igcj6H7ZG4__a4HCQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

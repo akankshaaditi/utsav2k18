@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BmsceUtsav 2018</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="slideshow_on">Slideshow On</string>
+    <string name="event">Slideshow On</string>
+    <string-array name="events">
+        <item>@drawable/dance</item><!--0-->
+        <item>@drawable/eastern_music</item><!--1-->
+        <item>@drawable/edc</item><!--2-->
+        <item>@drawable/fashion</item><!--3-->
+        <item>@drawable/fine_arts</item><!--4-->
+        <item>@drawable/game</item><!--5-->
+        <item>@drawable/kannada</item><!--6-->
+        <item>@drawable/literature</item><!--7-->
+        <item>@drawable/math</item><!--8-->
+        <item>@drawable/photography</item><!--9-->
+        <item>@drawable/quiz</item><!--10-->
+        <item>@drawable/tech</item><!--11-->
+        <item>@drawable/theatre</item><!--12-->
+        <item>@drawable/western_music</item><!--13-->
+        <item>@drawable/mountaineering</item><!--14-->
+        <item>@drawable/mr_utsav</item><!--15-->
+
+    </string-array>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string-array name="location_arrays">
+        <item>Main Stage</item>
+        <item>Indoor Stadium</item>
+        <item>PG Block</item>
+        <item>EC/CSE Block</item>
+        <item>Mechanical Block</item>
+        <item>Parking Lot</item>
+        <item>Canteen</item>
+        <item>Allahabad Bank</item>
+    </string-array>
+    <string name="title_activity_maps2">Map</string>
+
+</resources>

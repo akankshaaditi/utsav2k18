@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_scedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_sponsers"
+            android:icon="@drawable/ic_sponsers"
+            android:title="Sponsors" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_map"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contact"
+            android:title="About UTSAV" />
+
+
+    </group>
+
+    <item >
+        <menu>
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/ic_developers"
+                android:title="Developers" />
+
+        </menu>
+    </item>
+
+</menu>

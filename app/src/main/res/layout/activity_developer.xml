@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+
+    >
+    <TextView
+        android:id="@+id/tlaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Team Lead"
+        android:textColor="#000000"
+        android:textSize="30sp"
+
+        android:transitionName="abc2" />
+
+    <RelativeLayout
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tlaa"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/list">
+
+        <ImageView
+            android:id="@+id/iaa"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="37dp"
+
+            android:src="@drawable/team_akansha"
+            android:transitionName="abc" />
+
+        <TextView
+            android:id="@+id/taa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/iaa"
+            android:layout_toRightOf="@+id/iaa"
+            android:text="Akanksha Aditi"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:transitionName="abc2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayout">
+        <TextView
+            android:id="@+id/tm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="143dp"
+            android:text="Team Members"
+            android:textColor="#000000"
+            android:textSize="30sp"
+
+            android:transitionName="abc2" />
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/click"
+        android:layout_alignStart="@+id/click"
+        android:layout_below="@+id/relativeLayout"
+        >
+
+    </ListView>
+
+
+
+
+
+
+</RelativeLayout>
